@@ -225,7 +225,7 @@ struct followersProfileView: View {
                                     image
                                         .resizable()
                                 } else if phase.error != nil {
-                                    Image(systemName: "photo")
+                                    Image("placeholderImgaee")
                                         .resizable()
                                         .frame(maxWidth: .infinity)
                                         .frame(height: 150)
