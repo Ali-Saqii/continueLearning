@@ -29,6 +29,23 @@
 		9A82A61F2F026CF900C2B93E /* moreInSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moreInSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9A82A8592F02A0FE00C2B93E /* Exceptions for "moreInSwiftUITests" folder in "moreInSwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				moreInSwiftUIApp.swift,
+			);
+			target = 9A82A6072F026CF800C2B93E /* moreInSwiftUI */;
+		};
+		9A82A85A2F02A0FE00C2B93E /* Exceptions for "moreInSwiftUITests" folder in "moreInSwiftUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				moreInSwiftUIApp.swift,
+			);
+			target = 9A82A6142F026CF900C2B93E /* moreInSwiftUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9A82A60A2F026CF800C2B93E /* moreInSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,6 +54,10 @@
 		};
 		9A82A6182F026CF900C2B93E /* moreInSwiftUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A82A8592F02A0FE00C2B93E /* Exceptions for "moreInSwiftUITests" folder in "moreInSwiftUI" target */,
+				9A82A85A2F02A0FE00C2B93E /* Exceptions for "moreInSwiftUITests" folder in "moreInSwiftUITests" target */,
+			);
 			path = moreInSwiftUITests;
 			sourceTree = "<group>";
 		};
