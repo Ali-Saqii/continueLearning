@@ -38,7 +38,10 @@ struct magnification: View {
                         scale = lastScale * value
                     }
                     .onEnded { _ in
-                        lastScale = scale
+                        withAnimation(.spring(duration: 0.4)) {
+                            
+                            scale = lastScale
+                        }
                     }
             )
     }
