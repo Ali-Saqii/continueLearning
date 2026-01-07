@@ -11,7 +11,7 @@ import SwiftUI
 struct moreInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            DashboardView()
+            hapticsView()
         }
     }
 }
