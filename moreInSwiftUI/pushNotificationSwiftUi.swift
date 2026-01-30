@@ -87,7 +87,7 @@ struct pushNotificationSwiftUi: View {
             }.buttonStyle(.borderedProminent)
             
         }.onAppear {
-            UIApplication.shared.applicationIconBadgeNumber = 0
+//            UIApplication.shared.applicationIconBadgeNumber = 0
         }
     }
 }
