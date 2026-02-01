@@ -45,6 +45,7 @@ class DownloadWithEscapingViewModel: ObservableObject {
         }
     }
 
+    /*
 //        URLSession.shared.dataTask(with: url) { (data, response, error) in
 //            guard
 //                let data = data,
@@ -77,7 +78,7 @@ class DownloadWithEscapingViewModel: ObservableObject {
 //            
 //            DispatchQueue.main.async { [weak self] in
 //                self?.posts.append(newPost)
-     
+     */  // longer version of this codew
     
     func downloadData(fromURL url: URL, completionHandler: @escaping (_ data: Data?)-> ()) {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
