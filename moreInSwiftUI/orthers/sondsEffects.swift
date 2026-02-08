@@ -45,7 +45,7 @@ struct SystmeSoundEffectDemo: View {
     var body: some View {
         VStack (spacing: 30) {
             Text("playsoundCount: \(playsoundCount)")
-            Text("shouldPlay: \(shouldPlay)")
+//            Text("shouldPlay: \(shouldPlay)")
 
             Button(action: {
                 shouldPlay = true

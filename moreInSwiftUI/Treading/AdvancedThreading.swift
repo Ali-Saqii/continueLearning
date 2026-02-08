@@ -144,9 +144,9 @@ struct AdvancedThreading: View {
                 }
                 Section("DispatchWorkItem (Search)") {
                     TextField("Search", text: .constant(""))
-                        .onChange(of: "") { newValue in
-                            workItemExample.Search(newValue)
-                        }
+//                        .onChange(of: "") { newValue in
+//                            workItemExample.Search(newValue)
+//                        }
                     Text(workItemExample.searchResults)
                 }
             }

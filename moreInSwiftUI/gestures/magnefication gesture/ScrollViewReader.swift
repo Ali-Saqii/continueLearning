@@ -119,9 +119,9 @@ struct ScrollToValueView: View {
                     }
                     .padding()
                 }
-                .onChange(of: inputValue) { _ in
-                    // optional: live validation if needed
-                }
+//                .onChange(of: inputValue) { _ in
+//                    // optional: live validation if needed
+//                }
                 .onAppear {
                     scrollAction = proxy
                 }
